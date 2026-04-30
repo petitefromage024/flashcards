@@ -35,3 +35,4 @@ EOF
 git add README.md
 git commit -m "fix README content"
 git push origin main
+ls -la /workspaces/flashcards/
