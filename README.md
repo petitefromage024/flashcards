@@ -39,3 +39,14 @@ ls -la /workspaces/flashcards/
 cd /workspaces/flashcards
 npm install
 npm run dev
+open-pr.sh                                   ← run this to create branch + open PR
+groovelab-visuals/src/components/ui/
+  AccuracyRing.tsx
+  TopicRing.tsx
+  MiniSparkline.tsx
+groovelab-visuals/src/pages/
+  Home.tsx
+  Learn.tsx
+  Progress.tsx
+  FlashcardSession.tsxREPO_DIR=/path/to/groovelab ./open-pr.sh
+  
